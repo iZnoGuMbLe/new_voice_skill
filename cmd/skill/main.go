@@ -24,7 +24,7 @@ func webhook(w http.ResponseWriter, r *http.Request) {
 	_, _ = w.Write([]byte(`
       {
         "response": {
-          "text": "я пока ничего не умею"
+          "text": "Извините, я пока ничего не умею"
         },
         "version": "1.0"
       }
